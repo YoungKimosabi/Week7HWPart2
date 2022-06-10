@@ -1,39 +1,26 @@
-// write a function that takes in an
-// 1. action string (add_to_cart), (remove_from_cart), (remove_all), (empty_cart)
-// 2. item JS object [dictionary]
-// 3. Cart (should be an EMPTY ARRAY by default)
-
-// use a switch statement to perform actions based on the action string
-
-// each action should RETURN a fresh Cart array with the changes
-// if item not in cart and user said "remove", return the cart unchanged
-
-// THIS SHOULD BE AN OUT OF PLACE ALGORITHM (cart object inputted will never be changed)
-// AKA return a NEW COPY of cart array (slice())??
-
 const products = [
     {
         id:1,
-        name:'hallway runner',
+        name:'Prebuilt PC',
         price:'$1000',
         inventory:8,
-        description:"4x10 foot vintage hallway runner. Wool & Silk blend. 1960's Turkish.",
-        // imgSrc:,
+        description:"Prebuilt PC with intel i9-9700k processor and NVIDIA GeForce 3060 RTX ",
+        
     },
     {
         id:2,
-        name:'large area rug',
+        name:'Ultimate Gamer Package',
         price:'$4500',
         inventory:4,
-        description:"10x13 foot vintage area rug. 100% Silk, 1970s, Persian.",
+        description:"RGB Desk, 3 ASUS 4k 27 in. monitors, razor keyboard, mousepad, and mouse, prebuilt PC, 5 year warranty",
         // imgSrc:,
     },
     {
         id:3,
-        name:'medium area rug',
+        name:'Gamer Package',
         price:'$1800',
         inventory:6,
-        description:"5x7 foot vintage area rug. 100% Wool, hand dyed. Turkish.",
+        description:"Prebuilt PC, RGB Desk",
         // imgSrc:,
     }
 ];
